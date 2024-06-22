@@ -1,4 +1,4 @@
-package com.star.daythree;
+package com.star.programs.daythree;
 
 public class Student extends Citizen {
 

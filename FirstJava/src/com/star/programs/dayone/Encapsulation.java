@@ -1,4 +1,4 @@
-package com.star.programs;
+package com.star.programs.dayone;
 
 public class Encapsulation {
 

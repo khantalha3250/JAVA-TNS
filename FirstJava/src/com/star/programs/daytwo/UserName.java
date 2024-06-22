@@ -1,4 +1,4 @@
-package com.star.daytwo;
+package com.star.programs.daytwo;
 
 import java.util.Scanner;
 

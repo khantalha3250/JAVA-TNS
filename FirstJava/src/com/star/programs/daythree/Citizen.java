@@ -1,4 +1,4 @@
-package com.star.daythree;
+package com.star.programs.daythree;
 //program to demonstrate single inheritance
 public class Citizen {
 	public Citizen() {
