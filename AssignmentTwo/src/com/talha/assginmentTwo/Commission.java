@@ -3,9 +3,13 @@ package com.talha.assginmentTwo;
 import java.util.Scanner;
 
 public class Commission {
+	//Data Members.
 	String name, address, phone;
 	int salesAmount,commission;
+	
+	//Create a scanner class object.
 	Scanner sc  = new Scanner(System.in);
+	//Method to accept the details.
 	public void acceptDetails() {
 		System.out.println("Enter your name:");
 		name=sc.nextLine();
@@ -16,6 +20,8 @@ public class Commission {
 		System.out.println("Enter your sales amount:");
 		salesAmount=sc.nextInt();
 	}
+	
+	//Calculate the commission.
 	public void calculateCommission() {
 		if (salesAmount>=100000)
 			commission= salesAmount*10/100;
@@ -27,6 +33,8 @@ public class Commission {
 			commission=0;
 		System.out.println("The total commision on you sales amount is:"+commission);
 	}
+	
+	//Main methods.
 	public static void main(String[] args) {
 		Student obj=new Student();
 		Commission object=new Commission();
