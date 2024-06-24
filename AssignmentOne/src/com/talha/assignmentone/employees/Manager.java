@@ -1,4 +1,4 @@
-package com.talha.assignment.employees;
+package com.talha.assignmentone.employees;
 
 public class Manager extends Employee {
     private String department="IT";

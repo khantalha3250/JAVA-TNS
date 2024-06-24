@@ -1,6 +1,10 @@
 package com.star.programs.daythree;
 //program to demonstrate single inheritance
 public class Citizen {
+	protected String name;
+	protected long adhaarNo;
+	protected String address;
+	protected int phNo;
 	public Citizen() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -12,10 +16,7 @@ public class Citizen {
 		this.address = address;
 		this.phNo = phNo;
 	}
-	protected String name;
-	protected long adhaarNo;
-	protected String address;
-	protected int phNo;
+	
 	public String getName() {
 		return name;
 	}

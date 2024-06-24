@@ -1,4 +1,4 @@
-package com.talha.assginmentTwo;
+package com.talha.assginmenttwo;
 
 public class Student {
 	//Default constructor

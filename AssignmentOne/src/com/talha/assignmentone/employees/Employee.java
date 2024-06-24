@@ -1,4 +1,4 @@
-package com.talha.assignment.employees;
+package com.talha.assignmentone.employees;
 
 public class Employee {
 	//Data Members

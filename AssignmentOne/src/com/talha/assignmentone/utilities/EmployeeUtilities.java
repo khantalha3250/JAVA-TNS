@@ -1,6 +1,6 @@
-package com.talha.assignment.utilities;
+package com.talha.assignmentone.utilities;
 
-import com.talha.assignment.employees.Employee;
+import com.talha.assignmentone.employees.Employee;
 
 /**
  * Provides utility methods for employee operations.

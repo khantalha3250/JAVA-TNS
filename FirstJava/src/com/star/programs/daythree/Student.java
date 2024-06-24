@@ -8,7 +8,7 @@ public class Student extends Citizen {
 	public Student() {
 		super();
 	}
-	public Student(int rollNo, String collegeName) {
+	public Student(String name,) {
 		super(name, adhaarNo, address, phNo);
 		this.rollNo = rollNo;
 		this.collegeName = collegeName;

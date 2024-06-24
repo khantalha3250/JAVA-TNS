@@ -1,10 +1,10 @@
-package com.talha.assignment;
+package com.talha.assignmentone;
 
-import com.talha.assignment.employees.Developer;
-import com.talha.assignment.employees.Manager;
-import com.talha.assignment.utilities.EmployeeUtilities;
+import com.talha.assignmentone.employees.Developer;
+import com.talha.assignmentone.employees.Manager;
+import com.talha.assignmentone.utilities.EmployeeUtilities;
 
-public class AssignmentMain {
+public class Main {
     public static void main(String[] args) {
         // Create Manager and Developer instances
         Manager manager = new Manager();

@@ -1,4 +1,4 @@
-package com.talha.assginmentTwo;
+package com.talha.assginmenttwo;
 
 import java.util.Scanner;
 
@@ -19,6 +19,9 @@ public class Commission {
 		phone=sc.nextLine();
 		System.out.println("Enter your sales amount:");
 		salesAmount=sc.nextInt();
+	}
+	public void displayDetails() {
+		System.out.println("Name:"+name+"\n"+"Address:"+address+"\n"+"Phone Number:"+phone);
 	}
 	
 	//Calculate the commission.
